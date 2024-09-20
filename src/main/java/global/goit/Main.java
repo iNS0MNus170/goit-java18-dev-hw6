@@ -1,7 +1,7 @@
 package global.goit;
 
 import global.goit.database.DatabaseQueryService;
-import global.goit.service.*;
+import global.goit.entity.*;
 
 import java.util.List;
 

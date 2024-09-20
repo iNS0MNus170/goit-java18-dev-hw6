@@ -1,8 +1,8 @@
-package global.goit.service;
+package global.goit.entity;
 
-public class MaxSalaryWorker {
+public class LongestProject {
     private String name;
-    private int salary;
+    private int monthCount;
 
     public String getName() {
         return name;
@@ -15,10 +15,10 @@ public class MaxSalaryWorker {
     @Override
     public String toString() {
         return "name - " + name +
-                ", salary - " + salary + "\n";
+                ", monthCount - " + monthCount + "\n";
     }
 
-    public void setSalary(int salary) {
-        this.salary = salary;
+    public void setMonthCount(int monthCount) {
+        this.monthCount = monthCount;
     }
 }

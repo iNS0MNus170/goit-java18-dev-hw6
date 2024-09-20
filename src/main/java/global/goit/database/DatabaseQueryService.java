@@ -1,6 +1,6 @@
 package global.goit.database;
 
-import global.goit.service.*;
+import global.goit.entity.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

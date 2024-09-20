@@ -1,4 +1,4 @@
-package global.goit.service;
+package global.goit.entity;
 
 public class YoungestEldestWorkers {
     private String type;
