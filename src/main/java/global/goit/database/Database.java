@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class Database {
+public final class Database {
 
     private static final Logger logger = LoggerFactory.getLogger(Database.class);
     private static final HikariDataSource dataSource;
