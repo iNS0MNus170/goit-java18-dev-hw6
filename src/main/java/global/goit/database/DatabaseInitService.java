@@ -15,9 +15,9 @@ public class DatabaseInitService {
     private static final Logger logger = LoggerFactory.getLogger(DatabaseInitService.class);
 
     public static void main(String[] args) {
-        Connection connection;
-        connection = Database.getConnection();
-        try (Statement statement = connection.createStatement()) {
+
+        try (Connection connection = Database.getConnection();
+             Statement statement = connection.createStatement()) {
             String sqlFilePath = "sql/init_db.sql";
             String sql = new String(Files.readAllBytes(Paths.get(sqlFilePath)));
             statement.execute(sql);
